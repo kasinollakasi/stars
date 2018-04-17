@@ -14,7 +14,11 @@
 	  $i = $_POST['stars'];
 
 	  while ($i++) {
+<<<<<<< HEAD
 		    echo str_repeat('*')."<br>";
+=======
+		    echo str_repeat('*', $i)."<br>";
+>>>>>>> 7be8154a9d08275f320adc9532e11ec75ee877b8
 	     }
     }
     ?>
