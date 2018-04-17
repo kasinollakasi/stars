@@ -13,7 +13,7 @@
 
 	  $i = $_POST['stars'];
 
-	  while ($i--) {
+	  while ($i++) {
 		    echo str_repeat('*', $i)."<br>";
 	     }
     }
