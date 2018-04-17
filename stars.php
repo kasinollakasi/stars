@@ -7,7 +7,17 @@
   <body>
     <h2>Print some stars</h2>
 
-  
+    <?php
+
+    if ($_POST) {
+
+	  $i = $_POST['stars'];
+
+	  while ($i++) {
+		    echo str_repeat('*', $i)."<br>";
+	     }
+    }
+    ?>
 
 
   <form action="stars.php" method="post">
