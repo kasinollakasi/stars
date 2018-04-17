@@ -11,11 +11,10 @@
 
     if ($_POST) {
 
-	  $i = $_POST['stars'];
+	  $k = $i = $_POST['stars'];
 
 	  while ($i--) {
-		    echo str_repeat('*', $i)."<br>";
-        break;
+		    echo str_repeat('*', $k - $i)."<br>";
 	     }
     }
     ?>
